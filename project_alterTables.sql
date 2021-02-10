@@ -1,7 +1,7 @@
 -- CSE 572 Spring 2020
 -- Project Option: The FastCabs
 -- Purpose: Altering of created SQL Tables
--- Author: Cody-Co  
+-- Author: Cody-Co 
 
 ALTER TABLE Staff
     ADD CONSTRAINTS Staff_branchID_FK FOREIGN KEY (branchID) REFERENCES
